@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: black;
+    color: white; 
+} 
+#logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 45%;
+}
+#head{
+    text-align: center;
+    margin-top: 6%;
+}
+.cont h2{
+ font-size: 70px;
+ text-align: center;
+ font-weight: 600;
+ margin-top: 1.5vh;
+ margin-bottom: 4vh;
+}
+.cont h2 span{
+    color: yellow;
+}
+.types a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin-left: 11vw;
+}
+.pics{
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pics2{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pics3{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pics3 img{
+        gap: 20px;
+        background-color: #dadada;
+        width: 287px;
+        height: 300px;
+        transition: transform 1.5s;
+}
+.pics3 img:hover{
+    transform: scale(0.95);
+}
+.pics4{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pics4 img{
+    gap: 20px;
+    background-color: #dadada;
+    width: 287px;
+    height: 300px;
+    transition: transform 1.5s;
+}
+.pics4 img:hover{
+    transform: scale(0.95);
+}
+.pics img{
+    gap: 20px;
+    background-color: #dadada;
+    width: 287px;
+    height: 300px;
+    transition: transform 1.5s;
+}
+.pics img:hover{
+    transform: scale(0.95);
+}
+.pics2 img{
+    gap: 20px;
+    background-color: #dadada;
+    width: 287px;
+    height: 300px;
+    transition: transform 1.5s;
+}
+.pics2 img:hover{
+    transform: scale(0.95);
+}
+a:hover{
+   color: green;
+}
+#loc{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+#search{
+    width: 38px;
+    height: 38px;
+    border-radius: 25%;
+} 
+#shop{
+    width: 38px;
+    height: 38px;
+    border-radius: 35%;
+}
+.cant{
+    position: relative;
+}
+.lgs{
+    position: absolute;
+    top: 1vw;
+    right: 2vw; 
+    gap: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.lg1{
+    position: absolute;
+    left: 48%;
+    top: 0.50vh;
+}
+.lgs i{
+    font-size: 20px;
+}
+h1 span{
+    color: yellow;
+}
+.container{
+   gap: 40%;
+}
+.pics5{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pics5 img{
+    gap: 20px;
+    background-color: #dadada;
+    width: 287px;
+    height: 300px;
+    transition: transform 1.5s;
+}
+.pics5 img:hover{
+    transform: scale(0.95);
+}
+.pics6{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pics6 img{
+    gap: 20px;
+    background-color: #dadada;
+    width: 287px;
+    height: 300px;
+    transition: transform 1.5s;
+}
+.pics6 img:hover{
+    transform: scale(0.95);
+}
+@media (max-width: 500px) {
+    .pics{
+        flex-direction: column;
+    }
+    .pic2{
+        flex-direction: column;
+    }
+    .cont{
+        width: 100%;
+    }
+    .types{
+        width: 100%;
+    }
+    .cant{
+        position: relative;
+    }
+    .lgs{
+        position: absolute;
+        top: 3vw;
+        right: 0.50vw; 
+        gap: 7px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .lg1{
+        position: absolute;
+        left: 40%;
+        top: 0.50vh;
+    }
+    .pics{
+        flex-direction: column;
+        width: 100%;
+    }
+    .pics2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .pics3{
+        flex-direction: column;
+        width: 100%;
+    }
+    .pics4{
+        flex-direction: column;
+        width: 100%;
+    }
+    .pics5{
+        flex-direction: column;
+        width: 100%;
+    }
+    .pics6{
+        flex-direction: column;
+        width: 100%;
+    }
+}
